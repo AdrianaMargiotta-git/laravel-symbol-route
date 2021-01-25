@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', 'Maincontroller@index') -> name('home-blade');
+Route::get('/blog', 'Maincontroller@index2') -> name('blog-blade');
+Route::get('/about', 'Maincontroller@index3') -> name('about-blade');
+
