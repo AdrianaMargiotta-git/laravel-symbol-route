@@ -7,4 +7,5 @@
 <li>home</li>
 <li>blog</li>
 <li>about</li>
+</ul>
 <p>La struttura generale (header, footer, ecc) resta invariata per ogni pagina, cambia solo il contenuto che riportera' il solo titolo della pagina. Es.: <br>Home: <br>header-comune <br>HOME <br>footer-comune</p>
